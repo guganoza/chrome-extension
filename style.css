@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;}
+
+
+input{
+    border:solid 3px #5f9341;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.6em 0;
+}
+
+button{
+    background-color: #5f9341;
+    border: none;
+    color: white;
+    margin-top: 0.4em;
+    font-weight: bold;
+    font-size: 1.0rem;
+    padding: 0.6em 1.2em;
+    cursor: pointer;
+    border:solid 1px #5f9341;
+}
+#input-btn:hover{
+    background: #466932;
+}
+
+#input-btn:active{
+    background: #25351d;
+}
+
+#delete-btn {
+    background: transparent;
+    color: #5f9341;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+  margin-top: 0.4em;
+}
+
+a {
+color: green;
+font-size:1.5em
+}
